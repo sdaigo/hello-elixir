@@ -1,5 +1,5 @@
 defmodule IncomeTax do
-  @doc """
+  @moduledoc """
   calculates income tax following these rules:
   - 2,000 <= -> no tax
   - 3,000 <= -> pay 5%
